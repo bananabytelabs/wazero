@@ -224,6 +224,15 @@ func exportFunctions(builder wazero.HostModuleBuilder) {
 	exporter.ExportHostFunc(sockRecv)
 	exporter.ExportHostFunc(sockSend)
 	exporter.ExportHostFunc(sockShutdown)
+
+	exporter.ExportHostFunc(sockSendTo)
+	exporter.ExportHostFunc(sockRecvFrom)
+	exporter.ExportHostFunc(sockGetPeerAddr)
+	exporter.ExportHostFunc(sockGetLocalAddr)
+	exporter.ExportHostFunc(sockGetSockOpt)
+	exporter.ExportHostFunc(sockSetSockOpt)
+	exporter.ExportHostFunc(sockOpen)
+	exporter.ExportHostFunc(sockConnect)
 }
 
 // writeOffsetsAndNullTerminatedValues is used to write NUL-terminated values
