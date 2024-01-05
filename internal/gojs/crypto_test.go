@@ -5,9 +5,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/tetratelabs/wazero/experimental"
-	"github.com/tetratelabs/wazero/experimental/logging"
-	"github.com/tetratelabs/wazero/internal/testing/require"
+	"github.com/bananabytelabs/wazero/experimental"
+	"github.com/bananabytelabs/wazero/experimental/logging"
+	"github.com/bananabytelabs/wazero/internal/testing/require"
 )
 
 func Test_crypto(t *testing.T) {

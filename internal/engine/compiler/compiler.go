@@ -1,9 +1,9 @@
 package compiler
 
 import (
-	"github.com/tetratelabs/wazero/internal/asm"
-	"github.com/tetratelabs/wazero/internal/wasm"
-	"github.com/tetratelabs/wazero/internal/wazeroir"
+	"github.com/bananabytelabs/wazero/internal/asm"
+	"github.com/bananabytelabs/wazero/internal/wasm"
+	"github.com/bananabytelabs/wazero/internal/wazeroir"
 )
 
 // compiler is the interface of architecture-specific native code compiler,

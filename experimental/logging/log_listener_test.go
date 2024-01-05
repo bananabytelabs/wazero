@@ -6,13 +6,13 @@ import (
 	"math"
 	"testing"
 
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/experimental"
-	"github.com/tetratelabs/wazero/experimental/logging"
-	"github.com/tetratelabs/wazero/experimental/wazerotest"
-	"github.com/tetratelabs/wazero/internal/testing/require"
-	wasi "github.com/tetratelabs/wazero/internal/wasip1"
-	"github.com/tetratelabs/wazero/internal/wasm"
+	"github.com/bananabytelabs/wazero/api"
+	"github.com/bananabytelabs/wazero/experimental"
+	"github.com/bananabytelabs/wazero/experimental/logging"
+	"github.com/bananabytelabs/wazero/experimental/wazerotest"
+	"github.com/bananabytelabs/wazero/internal/testing/require"
+	wasi "github.com/bananabytelabs/wazero/internal/wasip1"
+	"github.com/bananabytelabs/wazero/internal/wasm"
 )
 
 // testCtx is an arbitrary, non-default context. Non-nil also prevents linter errors.

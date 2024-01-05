@@ -3,8 +3,8 @@ package compiler
 import (
 	"math"
 
-	"github.com/tetratelabs/wazero/internal/asm"
-	"github.com/tetratelabs/wazero/internal/asm/arm64"
+	"github.com/bananabytelabs/wazero/internal/asm"
+	"github.com/bananabytelabs/wazero/internal/asm/arm64"
 )
 
 // init initializes variables for the arm64 architecture

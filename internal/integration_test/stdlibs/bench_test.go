@@ -10,11 +10,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tetratelabs/wazero"
-	"github.com/tetratelabs/wazero/experimental/opt"
-	"github.com/tetratelabs/wazero/imports/wasi_snapshot_preview1"
-	"github.com/tetratelabs/wazero/internal/testing/require"
-	"github.com/tetratelabs/wazero/sys"
+	"github.com/bananabytelabs/wazero"
+	"github.com/bananabytelabs/wazero/experimental/opt"
+	"github.com/bananabytelabs/wazero/imports/wasi_snapshot_preview1"
+	"github.com/bananabytelabs/wazero/internal/testing/require"
+	"github.com/bananabytelabs/wazero/sys"
 )
 
 func BenchmarkZig(b *testing.B) {

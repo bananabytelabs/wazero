@@ -8,10 +8,10 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/tetratelabs/wazero/internal/platform"
-	"github.com/tetratelabs/wazero/internal/testing/require"
-	"github.com/tetratelabs/wazero/internal/wasm"
-	"github.com/tetratelabs/wazero/internal/wazeroir"
+	"github.com/bananabytelabs/wazero/internal/platform"
+	"github.com/bananabytelabs/wazero/internal/testing/require"
+	"github.com/bananabytelabs/wazero/internal/wasm"
+	"github.com/bananabytelabs/wazero/internal/wazeroir"
 )
 
 func TestMain(m *testing.M) {
@@ -278,7 +278,7 @@ func requireRuntimeLocationStackPointerEqual(t *testing.T, expSP uint64, c compi
 	require.Equal(t, expSP, c.runtimeValueLocationStack().sp-callFrameDataSizeInUint64)
 }
 
-// TestCompileI32WrapFromI64 is the regression test for https://github.com/tetratelabs/wazero/issues/1008
+// TestCompileI32WrapFromI64 is the regression test for https://github.com/bananabytelabs/wazero/issues/1008
 func TestCompileI32WrapFromI64(t *testing.T) {
 	c := newCompiler()
 	c.Init(&wasm.FunctionType{}, nil, false)

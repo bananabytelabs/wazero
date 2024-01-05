@@ -3,7 +3,7 @@ package experimental
 import (
 	"context"
 
-	"github.com/tetratelabs/wazero/api"
+	"github.com/bananabytelabs/wazero/api"
 )
 
 // StackIterator allows iterating on each function of the call stack, starting
@@ -25,7 +25,7 @@ type StackIterator interface {
 
 // FunctionListenerFactoryKey is a context.Context Value key. Its associated value should be a FunctionListenerFactory.
 //
-// See https://github.com/tetratelabs/wazero/issues/451
+// See https://github.com/bananabytelabs/wazero/issues/451
 type FunctionListenerFactoryKey struct{}
 
 // FunctionListenerFactory returns FunctionListeners to be notified when a

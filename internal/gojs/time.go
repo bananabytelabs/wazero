@@ -3,9 +3,9 @@ package gojs
 import (
 	"context"
 
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/internal/gojs/custom"
-	"github.com/tetratelabs/wazero/internal/gojs/goos"
+	"github.com/bananabytelabs/wazero/api"
+	"github.com/bananabytelabs/wazero/internal/gojs/custom"
+	"github.com/bananabytelabs/wazero/internal/gojs/goos"
 )
 
 var (

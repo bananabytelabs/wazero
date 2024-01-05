@@ -3,10 +3,10 @@ package wasi_snapshot_preview1
 import (
 	"context"
 
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/experimental/sys"
-	"github.com/tetratelabs/wazero/internal/wasip1"
-	"github.com/tetratelabs/wazero/internal/wasm"
+	"github.com/bananabytelabs/wazero/api"
+	"github.com/bananabytelabs/wazero/experimental/sys"
+	"github.com/bananabytelabs/wazero/internal/wasip1"
+	"github.com/bananabytelabs/wazero/internal/wasm"
 )
 
 // environGet is the WASI function named EnvironGetName that reads

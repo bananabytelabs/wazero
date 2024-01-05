@@ -28,7 +28,7 @@ Before this, wazero used [`twitchyliquid64/golang-asm`](https://github.com/twitc
 However, this was not only a dependency (one of our goals is to have zero
 dependencies), but also a large one (several megabytes added to the binary).
 Moreover, any copy of golang-asm is not thread-safe, so can't be used for
-concurrent compilation (See [#233](https://github.com/tetratelabs/wazero/issues/233)).
+concurrent compilation (See [#233](https://github.com/bananabytelabs/wazero/issues/233)).
 
 The assembled native codes are represented as `[]byte` and the slice region is
 marked as executable via mmap system call.
@@ -78,7 +78,7 @@ that trampoline function. Therefore, runtime-generated machine code is also corr
 
 ## Why context cancellation is handled in Go code rather than native code
 
-Since [wazero v1.0.0-pre.9](https://github.com/tetratelabs/wazero/releases/tag/v1.0.0-pre.9), the runtime
+Since [wazero v1.0.0-pre.9](https://github.com/bananabytelabs/wazero/releases/tag/v1.0.0-pre.9), the runtime
 supports integration with Go contexts to interrupt execution after a timeout, or in response to explicit cancellation.
 This support is internally implemented as a special opcode `builtinFunctionCheckExitCode` that triggers the execution of
 a Go function (`ModuleInstance.FailIfClosed`) that atomically checks a sentinel value at strategic points in the code
@@ -89,8 +89,8 @@ however, because native code never preempts (see section above), this may lead t
 never get the chance to run, and thus never get the chance to set the sentinel value; effectively preventing
 cancellation from taking place.
 
-[checkexitcode_loop]: https://github.com/tetratelabs/wazero/blob/86444c67a37dbf9e693ae5b365901f64968d9025/internal/wazeroir/compiler.go#L467-L476
-[native_check]: https://github.com/tetratelabs/wazero/issues/1409
+[checkexitcode_loop]: https://github.com/bananabytelabs/wazero/blob/86444c67a37dbf9e693ae5b365901f64968d9025/internal/wazeroir/compiler.go#L467-L476
+[native_check]: https://github.com/bananabytelabs/wazero/issues/1409
 
 ## Source Offset Mapping
 

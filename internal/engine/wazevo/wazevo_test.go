@@ -7,10 +7,10 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/wazevoapi"
-	"github.com/tetratelabs/wazero/internal/testing/require"
-	"github.com/tetratelabs/wazero/internal/wasm"
+	"github.com/bananabytelabs/wazero/api"
+	"github.com/bananabytelabs/wazero/internal/engine/wazevo/wazevoapi"
+	"github.com/bananabytelabs/wazero/internal/testing/require"
+	"github.com/bananabytelabs/wazero/internal/wasm"
 )
 
 var ctx = context.Background()

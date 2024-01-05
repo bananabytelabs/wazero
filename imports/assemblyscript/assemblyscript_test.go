@@ -12,16 +12,16 @@ import (
 	"testing/iotest"
 	"unicode/utf16"
 
-	"github.com/tetratelabs/wazero"
-	"github.com/tetratelabs/wazero/api"
-	. "github.com/tetratelabs/wazero/experimental"
-	"github.com/tetratelabs/wazero/experimental/logging"
-	. "github.com/tetratelabs/wazero/internal/assemblyscript"
-	"github.com/tetratelabs/wazero/internal/testing/proxy"
-	"github.com/tetratelabs/wazero/internal/testing/require"
-	"github.com/tetratelabs/wazero/internal/u64"
-	"github.com/tetratelabs/wazero/internal/wasm"
-	"github.com/tetratelabs/wazero/sys"
+	"github.com/bananabytelabs/wazero"
+	"github.com/bananabytelabs/wazero/api"
+	. "github.com/bananabytelabs/wazero/experimental"
+	"github.com/bananabytelabs/wazero/experimental/logging"
+	. "github.com/bananabytelabs/wazero/internal/assemblyscript"
+	"github.com/bananabytelabs/wazero/internal/testing/proxy"
+	"github.com/bananabytelabs/wazero/internal/testing/require"
+	"github.com/bananabytelabs/wazero/internal/u64"
+	"github.com/bananabytelabs/wazero/internal/wasm"
+	"github.com/bananabytelabs/wazero/sys"
 )
 
 // testCtx is an arbitrary, non-default context. Non-nil also prevents linter errors.

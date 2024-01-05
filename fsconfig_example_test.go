@@ -5,7 +5,7 @@ import (
 	"io/fs"
 	"log"
 
-	"github.com/tetratelabs/wazero"
+	"github.com/bananabytelabs/wazero"
 )
 
 //go:embed testdata/index.html

@@ -10,15 +10,15 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/tetratelabs/wazero/experimental"
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/backend"
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/ssa"
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/wazevoapi"
-	"github.com/tetratelabs/wazero/internal/filecache"
-	"github.com/tetratelabs/wazero/internal/platform"
-	"github.com/tetratelabs/wazero/internal/u32"
-	"github.com/tetratelabs/wazero/internal/u64"
-	"github.com/tetratelabs/wazero/internal/wasm"
+	"github.com/bananabytelabs/wazero/experimental"
+	"github.com/bananabytelabs/wazero/internal/engine/wazevo/backend"
+	"github.com/bananabytelabs/wazero/internal/engine/wazevo/ssa"
+	"github.com/bananabytelabs/wazero/internal/engine/wazevo/wazevoapi"
+	"github.com/bananabytelabs/wazero/internal/filecache"
+	"github.com/bananabytelabs/wazero/internal/platform"
+	"github.com/bananabytelabs/wazero/internal/u32"
+	"github.com/bananabytelabs/wazero/internal/u64"
+	"github.com/bananabytelabs/wazero/internal/wasm"
 )
 
 // fileCacheKey returns a key for the file cache.

@@ -1,9 +1,9 @@
 package logging
 
 import (
-	"github.com/tetratelabs/wazero/api"
-	. "github.com/tetratelabs/wazero/internal/assemblyscript"
-	"github.com/tetratelabs/wazero/internal/logging"
+	"github.com/bananabytelabs/wazero/api"
+	. "github.com/bananabytelabs/wazero/internal/assemblyscript"
+	"github.com/bananabytelabs/wazero/internal/logging"
 )
 
 func isProcFunction(fnd api.FunctionDefinition) bool {

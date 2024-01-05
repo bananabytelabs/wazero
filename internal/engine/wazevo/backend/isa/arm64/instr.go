@@ -5,8 +5,8 @@ import (
 	"math"
 	"strings"
 
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/backend/regalloc"
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/ssa"
+	"github.com/bananabytelabs/wazero/internal/engine/wazevo/backend/regalloc"
+	"github.com/bananabytelabs/wazero/internal/engine/wazevo/ssa"
 )
 
 type (

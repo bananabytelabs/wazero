@@ -8,14 +8,14 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/experimental"
-	"github.com/tetratelabs/wazero/internal/internalapi"
-	"github.com/tetratelabs/wazero/internal/leb128"
-	"github.com/tetratelabs/wazero/internal/sys"
-	"github.com/tetratelabs/wazero/internal/testing/hammer"
-	"github.com/tetratelabs/wazero/internal/testing/require"
-	"github.com/tetratelabs/wazero/internal/u64"
+	"github.com/bananabytelabs/wazero/api"
+	"github.com/bananabytelabs/wazero/experimental"
+	"github.com/bananabytelabs/wazero/internal/internalapi"
+	"github.com/bananabytelabs/wazero/internal/leb128"
+	"github.com/bananabytelabs/wazero/internal/sys"
+	"github.com/bananabytelabs/wazero/internal/testing/hammer"
+	"github.com/bananabytelabs/wazero/internal/testing/require"
+	"github.com/bananabytelabs/wazero/internal/u64"
 )
 
 func TestModuleInstance_Memory(t *testing.T) {

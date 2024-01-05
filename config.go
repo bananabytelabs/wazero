@@ -10,18 +10,18 @@ import (
 	"net"
 	"time"
 
-	"github.com/tetratelabs/wazero/api"
-	experimentalsys "github.com/tetratelabs/wazero/experimental/sys"
-	"github.com/tetratelabs/wazero/internal/engine/compiler"
-	"github.com/tetratelabs/wazero/internal/engine/interpreter"
-	"github.com/tetratelabs/wazero/internal/engine/wazevo"
-	"github.com/tetratelabs/wazero/internal/filecache"
-	"github.com/tetratelabs/wazero/internal/internalapi"
-	"github.com/tetratelabs/wazero/internal/platform"
-	internalsock "github.com/tetratelabs/wazero/internal/sock"
-	internalsys "github.com/tetratelabs/wazero/internal/sys"
-	"github.com/tetratelabs/wazero/internal/wasm"
-	"github.com/tetratelabs/wazero/sys"
+	"github.com/bananabytelabs/wazero/api"
+	experimentalsys "github.com/bananabytelabs/wazero/experimental/sys"
+	"github.com/bananabytelabs/wazero/internal/engine/compiler"
+	"github.com/bananabytelabs/wazero/internal/engine/interpreter"
+	"github.com/bananabytelabs/wazero/internal/engine/wazevo"
+	"github.com/bananabytelabs/wazero/internal/filecache"
+	"github.com/bananabytelabs/wazero/internal/internalapi"
+	"github.com/bananabytelabs/wazero/internal/platform"
+	internalsock "github.com/bananabytelabs/wazero/internal/sock"
+	internalsys "github.com/bananabytelabs/wazero/internal/sys"
+	"github.com/bananabytelabs/wazero/internal/wasm"
+	"github.com/bananabytelabs/wazero/sys"
 )
 
 // RuntimeConfig controls runtime behavior, with the default implementation as
@@ -136,7 +136,7 @@ type RuntimeConfig interface {
 	// However, if you use this in tests of a package not named as `main`, then wazero cannot obtain the correct
 	// version of wazero due to the known issue of debug.BuildInfo function: https://github.com/golang/go/issues/33976.
 	// As a consequence, your cache won't contain the correct version information and always be treated as `dev` version.
-	// To avoid this issue, you can pass -ldflags "-X github.com/tetratelabs/wazero/internal/version.version=foo" when running tests.
+	// To avoid this issue, you can pass -ldflags "-X github.com/bananabytelabs/wazero/internal/version.version=foo" when running tests.
 	WithCompilationCache(CompilationCache) RuntimeConfig
 
 	// WithCustomSections toggles parsing of "custom sections". Defaults to false.

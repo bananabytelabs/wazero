@@ -169,11 +169,11 @@ on this topic!
 
 Please refer to [RATIONALE][rationale] for the notable rationales behind wazero's implementations.
 
-[Module]: https://pkg.go.dev/github.com/tetratelabs/wazero@v1.0.0-rc.1/api#Module
-[Runtime]: https://pkg.go.dev/github.com/tetratelabs/wazero#Runtime
-[RuntimeConfig]: https://pkg.go.dev/github.com/tetratelabs/wazero#RuntimeConfig
-[CompiledModule]: https://pkg.go.dev/github.com/tetratelabs/wazero#CompiledModule
-[godoc]: https://pkg.go.dev/github.com/tetratelabs/wazero
-[rationale]: https://github.com/tetratelabs/wazero/blob/main/RATIONALE.md
-[wasi]: https://github.com/tetratelabs/wazero/tree/main/imports/wasi_snapshot_preview1/example
-[age-calculator]: https://github.com/tetratelabs/wazero/blob/v1.0.0-rc.1/examples/import-go/age-calculator.go
+[Module]: https://pkg.go.dev/github.com/bananabytelabs/wazero@v1.0.0-rc.1/api#Module
+[Runtime]: https://pkg.go.dev/github.com/bananabytelabs/wazero#Runtime
+[RuntimeConfig]: https://pkg.go.dev/github.com/bananabytelabs/wazero#RuntimeConfig
+[CompiledModule]: https://pkg.go.dev/github.com/bananabytelabs/wazero#CompiledModule
+[godoc]: https://pkg.go.dev/github.com/bananabytelabs/wazero
+[rationale]: https://github.com/bananabytelabs/wazero/blob/main/RATIONALE.md
+[wasi]: https://github.com/bananabytelabs/wazero/tree/main/imports/wasi_snapshot_preview1/example
+[age-calculator]: https://github.com/bananabytelabs/wazero/blob/v1.0.0-rc.1/examples/import-go/age-calculator.go

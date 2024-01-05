@@ -10,15 +10,15 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/experimental"
-	"github.com/tetratelabs/wazero/internal/filecache"
-	"github.com/tetratelabs/wazero/internal/internalapi"
-	"github.com/tetratelabs/wazero/internal/moremath"
-	"github.com/tetratelabs/wazero/internal/wasm"
-	"github.com/tetratelabs/wazero/internal/wasmdebug"
-	"github.com/tetratelabs/wazero/internal/wasmruntime"
-	"github.com/tetratelabs/wazero/internal/wazeroir"
+	"github.com/bananabytelabs/wazero/api"
+	"github.com/bananabytelabs/wazero/experimental"
+	"github.com/bananabytelabs/wazero/internal/filecache"
+	"github.com/bananabytelabs/wazero/internal/internalapi"
+	"github.com/bananabytelabs/wazero/internal/moremath"
+	"github.com/bananabytelabs/wazero/internal/wasm"
+	"github.com/bananabytelabs/wazero/internal/wasmdebug"
+	"github.com/bananabytelabs/wazero/internal/wasmruntime"
+	"github.com/bananabytelabs/wazero/internal/wazeroir"
 )
 
 // callStackCeiling is the maximum WebAssembly call frame stack height. This allows wazero to raise

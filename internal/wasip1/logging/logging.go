@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/internal/logging"
-	"github.com/tetratelabs/wazero/internal/sys"
-	. "github.com/tetratelabs/wazero/internal/wasip1"
+	"github.com/bananabytelabs/wazero/api"
+	"github.com/bananabytelabs/wazero/internal/logging"
+	"github.com/bananabytelabs/wazero/internal/sys"
+	. "github.com/bananabytelabs/wazero/internal/wasip1"
 )
 
 var le = binary.LittleEndian

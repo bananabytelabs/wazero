@@ -7,13 +7,13 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/internal/gojs"
-	"github.com/tetratelabs/wazero/internal/gojs/custom"
-	"github.com/tetratelabs/wazero/internal/gojs/goarch"
-	"github.com/tetratelabs/wazero/internal/gojs/goos"
-	"github.com/tetratelabs/wazero/internal/logging"
-	"github.com/tetratelabs/wazero/internal/sys"
+	"github.com/bananabytelabs/wazero/api"
+	"github.com/bananabytelabs/wazero/internal/gojs"
+	"github.com/bananabytelabs/wazero/internal/gojs/custom"
+	"github.com/bananabytelabs/wazero/internal/gojs/goarch"
+	"github.com/bananabytelabs/wazero/internal/gojs/goos"
+	"github.com/bananabytelabs/wazero/internal/logging"
+	"github.com/bananabytelabs/wazero/internal/sys"
 )
 
 // IsInLogScope returns true if the current function is in any of the scopes.

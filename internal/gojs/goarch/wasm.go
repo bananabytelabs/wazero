@@ -6,10 +6,10 @@ import (
 	"context"
 	"encoding/binary"
 
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/internal/gojs/custom"
-	"github.com/tetratelabs/wazero/internal/gojs/util"
-	"github.com/tetratelabs/wazero/internal/wasm"
+	"github.com/bananabytelabs/wazero/api"
+	"github.com/bananabytelabs/wazero/internal/gojs/custom"
+	"github.com/bananabytelabs/wazero/internal/gojs/util"
+	"github.com/bananabytelabs/wazero/internal/wasm"
 )
 
 // StubFunction stubs functions not used in Go's main source tree.

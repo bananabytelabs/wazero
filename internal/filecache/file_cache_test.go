@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tetratelabs/wazero/internal/testing/require"
+	"github.com/bananabytelabs/wazero/internal/testing/require"
 )
 
 func TestFileReadCloser_Close(t *testing.T) {

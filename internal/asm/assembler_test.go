@@ -3,7 +3,7 @@ package asm
 import (
 	"testing"
 
-	"github.com/tetratelabs/wazero/internal/testing/require"
+	"github.com/bananabytelabs/wazero/internal/testing/require"
 )
 
 func TestNewStaticConstPool(t *testing.T) {

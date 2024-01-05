@@ -5,7 +5,7 @@ package sysfs
 import (
 	"syscall"
 
-	experimentalsys "github.com/tetratelabs/wazero/experimental/sys"
+	experimentalsys "github.com/bananabytelabs/wazero/experimental/sys"
 )
 
 // syscallConnControl extracts a syscall.RawConn from the given syscall.Conn and applies

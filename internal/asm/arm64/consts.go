@@ -3,7 +3,7 @@ package arm64
 import (
 	"fmt"
 
-	"github.com/tetratelabs/wazero/internal/asm"
+	"github.com/bananabytelabs/wazero/internal/asm"
 )
 
 // Arm64-specific register states.

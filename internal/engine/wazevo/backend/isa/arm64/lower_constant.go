@@ -1,8 +1,8 @@
 package arm64
 
 import (
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/backend/regalloc"
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/ssa"
+	"github.com/bananabytelabs/wazero/internal/engine/wazevo/backend/regalloc"
+	"github.com/bananabytelabs/wazero/internal/engine/wazevo/ssa"
 )
 
 // lowerConstant allocates a new VReg and inserts the instruction to load the constant value.
@@ -52,7 +52,7 @@ func (m *machine) InsertLoadConstant(instr *ssa.Instruction, vr regalloc.VReg) {
 }
 
 // The following logics are based on the old asm/arm64 package.
-// https://github.com/tetratelabs/wazero/blob/39f2ff23a6d609e10c82b9cc0b981f6de5b87a9c/internal/asm/arm64/impl.go
+// https://github.com/bananabytelabs/wazero/blob/39f2ff23a6d609e10c82b9cc0b981f6de5b87a9c/internal/asm/arm64/impl.go
 
 func (m *machine) lowerConstantI32(dst regalloc.VReg, c int32) {
 	// Following the logic here:

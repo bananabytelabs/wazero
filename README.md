@@ -1,6 +1,6 @@
 # wazero: the zero dependency WebAssembly runtime for Go developers
 
-[![WebAssembly Core Specification Test](https://github.com/tetratelabs/wazero/actions/workflows/spectest.yaml/badge.svg)](https://github.com/tetratelabs/wazero/actions/workflows/spectest.yaml) [![Go Reference](https://pkg.go.dev/badge/github.com/tetratelabs/wazero.svg)](https://pkg.go.dev/github.com/tetratelabs/wazero) [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![WebAssembly Core Specification Test](https://github.com/bananabytelabs/wazero/actions/workflows/spectest.yaml/badge.svg)](https://github.com/bananabytelabs/wazero/actions/workflows/spectest.yaml) [![Go Reference](https://pkg.go.dev/badge/github.com/bananabytelabs/wazero.svg)](https://pkg.go.dev/github.com/bananabytelabs/wazero) [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 WebAssembly is a way to safely run code compiled in other languages. Runtimes
 execute WebAssembly Modules (Wasm), which are most often binaries with a `.wasm`
@@ -71,7 +71,7 @@ or change internal details with a patch version, e.g. 1.0.0 to 1.0.1.
 
 You can get the latest version of wazero like this.
 ```bash
-go get github.com/tetratelabs/wazero@latest
+go get github.com/bananabytelabs/wazero@latest
 ```
 
 Please give us a [star][17] if you end up using wazero!
@@ -124,7 +124,7 @@ wazero is a registered trademark of Tetrate.io, Inc. in the United States and/or
 [6]: https://pkg.go.dev/golang.org/x/sys/unix
 [7]: https://github.com/WebAssembly/spec/tree/wg-1.0/test/core
 [8]: internal/engine/compiler/RATIONALE.md
-[9]: https://github.com/tetratelabs/wazero/issues/506
+[9]: https://github.com/bananabytelabs/wazero/issues/506
 [10]: https://go.dev/doc/devel/release
 [11]: https://github.com/actions/virtual-environments
 [12]: https://docs.docker.com/develop/develop-images/baseimages/#create-a-simple-parent-image-using-scratch
@@ -132,4 +132,4 @@ wazero is a registered trademark of Tetrate.io, Inc. in the United States and/or
 [14]: https://github.com/WebAssembly/spec/tree/d39195773112a22b245ffbe864bab6d1182ccb06/test/core
 [15]: https://tetrate.io/blog/introducing-wazero-from-tetrate/
 [16]: https://wazero.io/community/users/
-[17]: https://github.com/tetratelabs/wazero/stargazers
+[17]: https://github.com/bananabytelabs/wazero/stargazers

@@ -4,8 +4,8 @@ import (
 	"io/fs"
 	"path"
 
-	experimentalsys "github.com/tetratelabs/wazero/experimental/sys"
-	"github.com/tetratelabs/wazero/sys"
+	experimentalsys "github.com/bananabytelabs/wazero/experimental/sys"
+	"github.com/bananabytelabs/wazero/sys"
 )
 
 // inoFromFileInfo uses stat to get the inode information of the file.

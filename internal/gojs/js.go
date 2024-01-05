@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/internal/gojs/goos"
+	"github.com/bananabytelabs/wazero/api"
+	"github.com/bananabytelabs/wazero/internal/gojs/goos"
 )
 
 // jsFn is a jsCall.call function, configured via jsVal.addFunction.

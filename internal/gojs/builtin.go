@@ -1,8 +1,8 @@
 package gojs
 
 import (
-	"github.com/tetratelabs/wazero/internal/gojs/config"
-	"github.com/tetratelabs/wazero/internal/gojs/goos"
+	"github.com/bananabytelabs/wazero/internal/gojs/config"
+	"github.com/bananabytelabs/wazero/internal/gojs/goos"
 )
 
 // newJsGlobal = js.Global() // js.go init

@@ -7,13 +7,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tetratelabs/wazero"
-	"github.com/tetratelabs/wazero/api"
-	experimentalsock "github.com/tetratelabs/wazero/experimental/sock"
-	"github.com/tetratelabs/wazero/internal/sys"
-	"github.com/tetratelabs/wazero/internal/testing/require"
-	"github.com/tetratelabs/wazero/internal/wasip1"
-	"github.com/tetratelabs/wazero/internal/wasm"
+	"github.com/bananabytelabs/wazero"
+	"github.com/bananabytelabs/wazero/api"
+	experimentalsock "github.com/bananabytelabs/wazero/experimental/sock"
+	"github.com/bananabytelabs/wazero/internal/sys"
+	"github.com/bananabytelabs/wazero/internal/testing/require"
+	"github.com/bananabytelabs/wazero/internal/wasip1"
+	"github.com/bananabytelabs/wazero/internal/wasm"
 )
 
 func Test_sockAccept(t *testing.T) {

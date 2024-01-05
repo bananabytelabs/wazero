@@ -4,8 +4,8 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/tetratelabs/wazero/internal/asm"
-	"github.com/tetratelabs/wazero/internal/testing/require"
+	"github.com/bananabytelabs/wazero/internal/asm"
+	"github.com/bananabytelabs/wazero/internal/testing/require"
 )
 
 func TestCodeSegmentZeroValue(t *testing.T) {

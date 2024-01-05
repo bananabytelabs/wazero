@@ -3,10 +3,10 @@ package amd64
 import (
 	"context"
 
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/backend"
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/backend/regalloc"
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/ssa"
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/wazevoapi"
+	"github.com/bananabytelabs/wazero/internal/engine/wazevo/backend"
+	"github.com/bananabytelabs/wazero/internal/engine/wazevo/backend/regalloc"
+	"github.com/bananabytelabs/wazero/internal/engine/wazevo/ssa"
+	"github.com/bananabytelabs/wazero/internal/engine/wazevo/wazevoapi"
 )
 
 // NewBackend returns a new backend for arm64.

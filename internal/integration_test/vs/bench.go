@@ -10,7 +10,7 @@ import (
 	"testing"
 	"text/tabwriter"
 
-	"github.com/tetratelabs/wazero/internal/testing/require"
+	"github.com/bananabytelabs/wazero/internal/testing/require"
 )
 
 // testCtx is an arbitrary, non-default context. Non-nil also prevents linter errors.
@@ -18,13 +18,13 @@ var testCtx = context.WithValue(context.Background(), struct{}{}, "arbitrary")
 
 // ensureCompilerFastest is overridable via ldflags. e.g.
 //
-//	-ldflags '-X github.com/tetratelabs/wazero/internal/integration_test/vs.ensureCompilerFastest=true'
+//	-ldflags '-X github.com/bananabytelabs/wazero/internal/integration_test/vs.ensureCompilerFastest=true'
 var ensureCompilerFastest = "false"
 
 const compilerRuntime = "wazero-compiler"
 
 // runTestBenchmark_Call_CompilerFastest ensures that Compiler is the fastest engine for function invocations.
-// This is disabled by default, and can be run with -ldflags '-X github.com/tetratelabs/wazero/vs.ensureCompilerFastest=true'.
+// This is disabled by default, and can be run with -ldflags '-X github.com/bananabytelabs/wazero/vs.ensureCompilerFastest=true'.
 func runTestBenchmark_Call_CompilerFastest(t *testing.T, rtCfg *RuntimeConfig, name string, call func(Module, int) error, vsRuntime Runtime) {
 	if ensureCompilerFastest != "true" {
 		t.Skip()

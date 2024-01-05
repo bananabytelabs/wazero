@@ -3,7 +3,7 @@
 package writefs
 
 import (
-	"github.com/tetratelabs/wazero/experimental/sys"
+	"github.com/bananabytelabs/wazero/experimental/sys"
 )
 
 // statFields isn't used outside JS, it is only for compilation

@@ -7,10 +7,10 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/internal/gojs/goarch"
-	"github.com/tetratelabs/wazero/internal/gojs/util"
-	"github.com/tetratelabs/wazero/internal/wasm"
+	"github.com/bananabytelabs/wazero/api"
+	"github.com/bananabytelabs/wazero/internal/gojs/goarch"
+	"github.com/bananabytelabs/wazero/internal/gojs/util"
+	"github.com/bananabytelabs/wazero/internal/wasm"
 )
 
 // Ref is used to identify a JavaScript value, since the value itself cannot

@@ -3,9 +3,9 @@ package wasm
 import (
 	"testing"
 
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/internal/testing/hammer"
-	"github.com/tetratelabs/wazero/internal/testing/require"
+	"github.com/bananabytelabs/wazero/api"
+	"github.com/bananabytelabs/wazero/internal/testing/hammer"
+	"github.com/bananabytelabs/wazero/internal/testing/require"
 )
 
 func TestModule_BuildFunctionDefinitions(t *testing.T) {

@@ -3,7 +3,7 @@ package compiler
 import (
 	"testing"
 
-	"github.com/tetratelabs/wazero/internal/integration_test/vs"
+	"github.com/bananabytelabs/wazero/internal/integration_test/vs"
 )
 
 var runtime = vs.NewWazeroCompilerRuntime

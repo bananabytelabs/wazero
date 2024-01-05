@@ -40,9 +40,9 @@ a test framework or a feature, check with one of the above channels. Someone may
 already have worked on this in the past and might join your effort. Sometimes,
 features are intentionally absent, usually with rationale documented in an issue.
 Regardless, the best advice is to join the community before proposing change, and
-read one of our [CONTRIBUTING](https://github.com/tetratelabs/wazero/blob/main/CONTRIBUTING.md) files
+read one of our [CONTRIBUTING](https://github.com/bananabytelabs/wazero/blob/main/CONTRIBUTING.md) files
 which explains technical aspects of change culture.
 
-[1]: https://github.com/tetratelabs/wazero
+[1]: https://github.com/bananabytelabs/wazero
 [2]: https://invite.slack.golangbridge.org/
-[3]: https://github.com/tetratelabs/wazero/stargazers
+[3]: https://github.com/bananabytelabs/wazero/stargazers

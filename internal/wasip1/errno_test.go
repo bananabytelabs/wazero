@@ -3,7 +3,7 @@ package wasip1
 import (
 	"testing"
 
-	"github.com/tetratelabs/wazero/experimental/sys"
+	"github.com/bananabytelabs/wazero/experimental/sys"
 )
 
 func TestToErrno(t *testing.T) {

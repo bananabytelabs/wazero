@@ -4,7 +4,7 @@ import (
 	"io/fs"
 	"math"
 
-	"github.com/tetratelabs/wazero/sys"
+	"github.com/bananabytelabs/wazero/sys"
 )
 
 var (

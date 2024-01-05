@@ -1,7 +1,7 @@
 package amd64
 
 import (
-	"github.com/tetratelabs/wazero/internal/asm"
+	"github.com/bananabytelabs/wazero/internal/asm"
 )
 
 // Assembler is the interface used by amd64 compiler.

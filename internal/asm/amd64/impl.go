@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/tetratelabs/wazero/internal/asm"
+	"github.com/bananabytelabs/wazero/internal/asm"
 )
 
 // nodeImpl implements asm.Node for amd64.

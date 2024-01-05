@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/experimental/sys"
-	socketapi "github.com/tetratelabs/wazero/internal/sock"
-	"github.com/tetratelabs/wazero/internal/sysfs"
-	"github.com/tetratelabs/wazero/internal/wasip1"
-	"github.com/tetratelabs/wazero/internal/wasm"
+	"github.com/bananabytelabs/wazero/api"
+	"github.com/bananabytelabs/wazero/experimental/sys"
+	socketapi "github.com/bananabytelabs/wazero/internal/sock"
+	"github.com/bananabytelabs/wazero/internal/sysfs"
+	"github.com/bananabytelabs/wazero/internal/wasip1"
+	"github.com/bananabytelabs/wazero/internal/wasm"
 )
 
 var sockSendTo = newHostFunc("sock_send_to", sockSendToFn, []wasm.ValueType{i32, i32, i32, i32, i32, i32, i32}, "foo", "bar", "baz", "a", "b", "v")

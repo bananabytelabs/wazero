@@ -7,7 +7,7 @@ import (
 
 var (
 	// shorthashWasm is a wasi binary which runs the same wasm function inside
-	// a loop. See https://github.com/tetratelabs/wazero/issues/947
+	// a loop. See https://github.com/bananabytelabs/wazero/issues/947
 	//
 	// Taken from https://github.com/jedisct1/webassembly-benchmarks/tree/master/2022-12/wasm
 	//go:embed testdata/shorthash.wasm

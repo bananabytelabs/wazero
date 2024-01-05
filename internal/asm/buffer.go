@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"unsafe"
 
-	"github.com/tetratelabs/wazero/internal/platform"
+	"github.com/bananabytelabs/wazero/internal/platform"
 )
 
 var zero [16]byte
